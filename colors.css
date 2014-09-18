@@ -538,7 +538,7 @@ a.tc-tiddlylink.tc-plugin-info:hover {
 }
 
 .tc-chooser-item a.tc-tiddlylink:hover {
-	color: <<colour tiddler-link-background>>;
+	color: <<colour tiddler-link-foreground>>;
 	background-color: <<colour tiddler-link-foreground>>;
 }
 
