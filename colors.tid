@@ -1,4 +1,4 @@
-title: $:/themes/bcse/grey/colors.css
+title: $:/themes/bcse/grey/colors
 
 \rules only filteredtranscludeinline transcludeinline macrodef macrocallinline
 
@@ -346,8 +346,8 @@ canvas.tc-edit-bitmapeditor  {
 }
 
 .tc-drop-down a:hover, .tc-drop-down button:hover, .tc-drop-down .tc-file-input-wrapper:hover button {
-	color: <<colour tiddler-link-background>>;
-	background-color: <<colour tiddler-link-foreground>>;
+	color: <<colour tiddler-link-foreground>>;
+	background-color: <<colour tiddler-link-background>>;
 }
 
 .tc-drop-down .tc-tab-buttons button {
@@ -370,8 +370,8 @@ canvas.tc-edit-bitmapeditor  {
 }
 
 .tc-block-dropdown a:hover {
-	color: <<colour tiddler-link-background>>;
-	background-color: <<colour tiddler-link-foreground>>;
+	color: <<colour tiddler-link-foreground>>;
+	background-color: <<colour tiddler-link-background>>;
 }
 
 /*
@@ -499,7 +499,7 @@ canvas.tc-edit-bitmapeditor  {
 
 a.tc-tiddlylink.tc-plugin-info:hover {
 	background-color: <<colour primary>>;
-	color: <<colour background>>;
+	color: <<colour foreground>>;
 }
 
 .tc-plugin-info-dropdown {
