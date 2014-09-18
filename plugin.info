@@ -1,0 +1,8 @@
+{
+	"title": "$:/themes/bcse/grey",
+	"name": "Grey",
+	"author": "GreyLee",
+	"core-version": ">=5.0.0",
+	"plugin-type": "theme",
+	"description": "A simple theme"
+}

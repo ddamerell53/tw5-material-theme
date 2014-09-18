@@ -1,0 +1,6 @@
+title: $:/themes/bcse/grey/base
+tags: [[$:/tags/Stylesheet]]
+
+\rules only filteredtranscludeinline transcludeinline macrodef macrocallinline
+
+{{$:/themes/bcse/grey/normalize.css}}
