@@ -5,7 +5,7 @@ tags: [[$:/tags/Stylesheet]]
 
 /* Typography */
 
-@import url(http://fonts.googleapis.com/css?family=Roboto+Slab:400,700);
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,400italic,700,700italic);
 @import url(http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic);
 
 html {
@@ -13,8 +13,8 @@ html {
 }
 
 h1, h2, h3, h4, h5, h6 {
+	color: <<colour primary>>;
 	font-family: {{$:/themes/bcse/grey/settings/header-fontfamily}};
-	font-weight: 700 !important;
 }
 
 a {
@@ -40,7 +40,7 @@ textarea {
 
 .tc-title {
 	display: block;
-	padding: 28px 42px 14px;
+	padding: 28px 42px 28px;
 }
 
 .tc-tiddler-info {
@@ -67,6 +67,36 @@ textarea {
 	margin: -28px -42px 0 0;
 }
 
+/* Colours */
+
+.tc-site-title {
+	color: <<colour primary>> !important;
+}
+
+.tc-title {
+	background: <<colour primary>>;
+}
+
+.tc-tiddler-edit-frame .tc-tiddler-controls button svg {
+	fill: <<colour sidebar-controls-foreground>> !important;
+}
+
+.tc-tiddler-edit-frame .tc-tiddler-controls button svg:hover {
+	fill: <<colour sidebar-controls-foreground-hover>> !important;
+}
+
+.tc-edit-texteditor {
+	color: <<colour foreground>> !important;
+}
+
+.tc-drop-down *:hover > svg {
+	fill: <<colour tiddler-link-background>> !important;
+}
+
+.tc-system-title-prefix {
+	color: <<colour tiddler-controls-foreground>> !important;
+}
+
 /* Images */
 
 button svg.tc-image-button,
@@ -82,20 +112,52 @@ button .tc-image-button img {
 
 /* Decorations */
 
-.tc-tiddler-frame {
-	border-radius: 3px;
-	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-	transition-property: box-shadow, transform;
-	transition-duration: 1s;
+.tc-tiddler-frame,
+.tc-block-dropdown,
+.tc-drop-down {
+	border: none !important;
+	border-radius: 2px;
+	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
 }
 
-.tc-tiddler-frame:hover,
-.tc-block-dropdown {
-	border-radius: 3px;
-	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
-	transform: translateY(-3px);
+.tc-title {
+	border-radius: 2px 2px 0 0;
 }
+
+/* Tiddler Info */
 
 .tc-tiddler-info {
-	box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.12), inset 0 1px 2px rgba(0, 0, 0, 0.24);
+	padding: 0 !important;
+	border: none !important;
+}
+
+.tc-tiddler-info .tc-tab-set {
+	margin-top:-3px;
+}
+
+.tc-tiddler-info .tc-tab-buttons {
+	background-color: <<colour primary>>;
+	font-size: 1em;
+	padding: 0 2em;
+	margin: 0;
+}
+
+.tc-tiddler-info .tc-tab-buttons button {
+	color: <<colour tiddler-controls-foreground>>;
+	background-color: transparent;
+	padding: 0 1em 1em;
+	border: none;
+	border-bottom: 2px solid transparent;
+}
+
+.tc-tiddler-info .tc-tab-buttons button.tc-tab-selected {
+	background-color: inherit !important;
+	border: none !important;
+	border-bottom: 2px solid #ff4081 !important;
+	color: <<colour tiddler-title-foreground>>;
+}
+
+.tc-tiddler-info .tc-tab-content {
+	margin: 0 !important;
+	padding: 14px 42px;
 }
