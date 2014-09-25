@@ -1,4 +1,4 @@
-title: $:/themes/bcse/grey/styles
+title: $:/themes/bcse/material/styles
 tags: [[$:/tags/Stylesheet]]
 
 \rules only filteredtranscludeinline transcludeinline macrodef macrocallinline
@@ -14,7 +14,7 @@ html {
 
 h1, h2, h3, h4, h5, h6 {
 	color: <<colour primary>>;
-	font-family: {{$:/themes/bcse/grey/settings/header-fontfamily}};
+	font-family: {{$:/themes/bcse/material/settings/header-fontfamily}};
 }
 
 a {
@@ -25,11 +25,11 @@ code,
 kbd,
 pre,
 samp {
-	font-family: {{$:/themes/bcse/grey/settings/monospace-fontfamily}} !important;
+	font-family: {{$:/themes/bcse/material/settings/monospace-fontfamily}} !important;
 }
 
 textarea {
-	font-family: {{$:/themes/bcse/grey/settings/text-editor-fontfamily}} !important;
+	font-family: {{$:/themes/bcse/material/settings/text-editor-fontfamily}} !important;
 }
 
 /* Layout */
