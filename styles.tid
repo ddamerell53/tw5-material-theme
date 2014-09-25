@@ -145,9 +145,11 @@ button .tc-image-button img {
 .tc-tiddler-info .tc-tab-buttons button {
 	color: <<colour tiddler-controls-foreground>>;
 	background-color: transparent;
+	font-family: {{$:/themes/bcse/material/settings/header-fontfamily}};
 	padding: 0 1em 1em;
 	border: none;
 	border-bottom: 2px solid transparent;
+	text-transform: uppercase;
 }
 
 .tc-tiddler-info .tc-tab-buttons button.tc-tab-selected {
