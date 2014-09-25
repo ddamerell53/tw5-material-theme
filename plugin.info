@@ -4,5 +4,6 @@
 	"author": "GreyLee",
 	"core-version": ">=5.0.0",
 	"plugin-type": "theme",
-	"description": "A simple theme"
+	"description": "Grey Lee's customized theme",
+	"dependents": ["$:/themes/tiddlywiki/vanilla"]
 }

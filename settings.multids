@@ -1,0 +1,5 @@
+title: $:/themes/bcse/grey/settings/
+
+header-fontfamily: "Roboto Slab", Helvetica, Arial, sans-serif
+monospace-fontfamily: Menlo, Consolas, monospace
+text-editor-fontfamily: inherit
