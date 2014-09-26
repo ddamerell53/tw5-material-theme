@@ -141,6 +141,12 @@ button .tc-image-button img {
 	border-radius: 2px 2px 0 0;
 }
 
+button.tc-tag-label, span.tc-tag-label {
+	padding: 0 .8em !important;
+	line-height: 1.6em !important;
+	border-radius: .8em !important;
+}
+
 /* Tiddler Info */
 
 .tc-tiddler-info {
