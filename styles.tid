@@ -67,6 +67,16 @@ textarea {
 	margin: -28px -42px 0 0;
 }
 
+@media (max-width: 960px) {
+	.tc-sidebar-scrollable {
+		padding: 28px;
+	}
+
+	.tc-story-river {
+		padding: 0 28px !important;
+	}
+}
+
 /* Colours */
 
 .tc-site-title {
