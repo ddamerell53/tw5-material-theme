@@ -172,7 +172,7 @@ button .tc-image-button img {
 .tc-tiddler-info .tc-tab-buttons button.tc-tab-selected {
 	background-color: inherit !important;
 	border: none !important;
-	border-bottom: 2px solid #ff4081 !important;
+	border-bottom: 2px solid <<colour tag-background>> !important;
 	color: <<colour tiddler-title-foreground>>;
 }
 
