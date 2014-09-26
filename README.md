@@ -5,4 +5,4 @@ A theme that inpired by Material Design.
 
 ## Screenshot
 
-![Screenshot of Material](//github.com/bcse/tw5-material-theme/blob/gh-pages/screenshot.png)
+![Screenshot of Material](https://raw.githubusercontent.com/bcse/tw5-material-theme/gh-pages/screenshot.png)
