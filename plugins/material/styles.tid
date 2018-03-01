@@ -63,10 +63,6 @@ textarea {
 	padding: 0;
 }
 
-.tc-titlebar.tc-tiddler-controls {
-	margin: -28px -42px 0 0;
-}
-
 @media (max-width: 960px) {
 	.tc-sidebar-header > .tc-reveal {
 		padding: 28px;
